@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle: 100,200,300,400,500,600,700|Tangerine: 100,200,300,400,500,600,700');
+
+/* The navigation bar */
+.nav {
+    overflow: hidden;
+    background-color: #7a7ab8;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.nav a {
+    float: left;
+    display: block;
+    font-family: "Chicle", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    width: 20%;
+}
+
+.nav a:hover {
+    background: #4c4c73;
+    color: white;
+    transition: all 0.35s;
+}
+
+/* General styling */
+
+header {
+    margin: 0;
+}
+
+body {
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 30px;
+}
+
+.center {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Intro */
+
+.intro {
+    text-align: center;
+}
+
+/* Newsletter */
+
+
+.btn-primary {
+  margin-top: 15px;
+}
+
+.thumbnail {
+    background-color: #a1a1cd;
+}
+.btn {
+    background-color: #636380;
+    color: black;
+}
+
+/* News */
+
+.news {
+    text-align: center;
+}
+.eventspage {
+    color: black;
+}
+
+/* Tour */
+
+.tour {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+.tourtitle {
+    background-color: #a1a1cd;
+    text-align: center;
+}
+.tourlist {
+    background-color: #a1a1cd;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(143, 143, 163);
+    color: rgb(13, 12, 13);
+    min-height: 50px;
+    margin: 0;
+}
+.copyright {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+    
+}
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 13px 0;
+    border-radius: 20%;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    background-color: #f7f2f2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #990000;
+}
+
+#footer-details {
+    margin: 20px;
+}
