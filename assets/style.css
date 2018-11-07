@@ -6,8 +6,8 @@
     background-color: #7a7ab8;
     position: fixed; 
     top: 0; 
-    width: 100%; 
-}
+    width: 100%;
+}    
 
 .nav a {
     float: left;
@@ -103,6 +103,12 @@ body {
 }
 .tourlist {
     background-color: #a1a1cd;
+}
+
+/*Band Tab*/
+
+.bodyband {
+    background-image: url('assets/images/bodyband.jpg')
 }
 
 /* Footer */
