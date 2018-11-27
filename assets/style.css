@@ -57,6 +57,12 @@ body {
     text-transform: uppercase;
 }
 
+/* index tab*/
+
+.bodyband {
+    background-image: url('assets/images/bodyband.jpg')
+}
+
 /* Intro */
 
 .intro {
@@ -91,8 +97,6 @@ body {
 
 .tour {
     display: inline-block;
-    width: 300px;
-    height: 300px;
     margin-left: 35px;
     margin-right: auto;
 }
@@ -107,8 +111,19 @@ body {
 
 /*Band Tab*/
 
-.bodyband {
-    background-image: url('assets/images/bodyband.jpg')
+
+
+.band-info {
+    font-family: "Tangerine", sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: black;
+}
+
+.band-txt {
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 /* Footer */
