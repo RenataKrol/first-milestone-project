@@ -131,7 +131,6 @@ body {
 footer {
     background-color: rgb(143, 143, 163);
     color: rgb(13, 12, 13);
-    min-height: 50px;
     margin: 0;
 }
 .copyright {
