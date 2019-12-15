@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle: 100,200,300,400,500,600,700|Tangerine: 100,200,300,400,500,600,700');
 
-/* The navigation bar */
+/* The navigation bar - a Fixed Top Menu from https://www.w3schools.com/ */
 .nav {
     overflow: hidden;
     background-color: #7a7ab8;
+    z-index: 100;
     position: fixed; 
     top: 0; 
     width: 100%;
@@ -29,6 +30,10 @@
     transition: all 0.35s;
 }
 
+.main {
+  margin-top: 30px;
+}
+
 /* General styling */
 
 header {
@@ -38,7 +43,7 @@ header {
 body {
     font-family: "Chicle", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #ffffff;
     color: black;
     margin-top: 30px;
@@ -57,7 +62,7 @@ body {
     text-transform: uppercase;
 }
 
-/* index tab*/
+/* Index tab*/
 
 .bodyband {
     background-image: url('assets/images/bodyband.jpg')
@@ -66,10 +71,11 @@ body {
 /* Intro */
 
 .intro {
+    margin-top: 30px;
     text-align: center;
 }
 
-/* Newsletter */
+/* Newsletter  */
 
 
 .btn-primary {
@@ -148,7 +154,7 @@ body {
     font-size: 16px;
 }
 
-/* Footer */
+/* Footer I took from other project - the first mini-project "ucd-resume" */
 
 footer {
     background-color: rgb(143, 143, 163);
@@ -188,5 +194,5 @@ footer {
 }
 
 #footer-details {
-    margin: 20px;
+    margin: 15px;
 }
