@@ -169,6 +169,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* Music page */
+.music-general {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 /* Footer I took from other project - the first mini-project "ucd-resume" */
 
