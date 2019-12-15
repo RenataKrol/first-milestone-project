@@ -31,7 +31,7 @@
 }
 
 .main {
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 /* General styling */
@@ -137,11 +137,14 @@ body {
     background-color: #a1a1cd;
 }
 
-/*Band Tab*/
-
-
+/* Band page */
 
 .band-info {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Tangerine", sans-serif;
     font-weight: bold;
     font-size: 37px;
@@ -149,9 +152,22 @@ body {
 }
 
 .band-txt {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Chicle", sans-serif;
     font-weight: 300;
     font-size: 16px;
+    color: black;
+}
+
+
+.img-individual {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer I took from other project - the first mini-project "ucd-resume" */
@@ -162,20 +178,20 @@ footer {
     margin: 0;
 }
 .copyright {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
 }
 
 .social-links {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 2px;
     text-align: right;
     
 }
 
 .social-links li a i {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     padding: 13px 0;
     border-radius: 20%;
     font-size: 20px;
@@ -194,5 +210,5 @@ footer {
 }
 
 #footer-details {
-    margin: 15px;
+    margin: 5px;
 }
